@@ -27,6 +27,7 @@ Follow these steps to run the project locally.
 
 1. **Install MySQL Server**  
    Make sure you have MySQL installed and running on your system.
+   create database expense_tracker;
 
 2. **Navigate to the backend directory**  
    ```bash
