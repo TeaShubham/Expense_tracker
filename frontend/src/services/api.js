@@ -1,8 +1,8 @@
 import axios from "axios";
 
-const API_BASE = "/api"; // proxy from package.json
+const API_BASE = "/api"; 
 
-// Helper to get token
+
 const getAuthHeaders = () => {
   const token = localStorage.getItem("token");
   return token ? { Authorization: `Bearer ${token}` } : {};
